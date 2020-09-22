@@ -1,7 +1,3 @@
-.slick-active {
-    outline: none;
-}
-
 .slider__wrapper {
     display: flex;
     margin: 39px auto 40px;
@@ -230,4 +226,10 @@
 .slick-next {
     width: 40px;
     height: 40px;
+}
+
+@media screen and (min-width: 1080) {
+    .slick-active {
+        outline: none;
+    }
 }

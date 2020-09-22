@@ -8,13 +8,14 @@ $(function() {
         swipe: false,
         infinite: true,
         responsive: [{
-                breakpoint: 768,
+                breakpoint: 800,
                 settings: {
                     arrows: false,
-                    centerMode: false,
+                    centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 2,
-                    infinite: false,
+                    infinite: true,
+                    swipe: true,
                     dots: true
                 }
             },
@@ -26,6 +27,7 @@ $(function() {
                     centerPadding: '40px',
                     slidesToShow: 1,
                     infinite: false,
+                    swipe: true,
                     dots: true
                 }
             }
