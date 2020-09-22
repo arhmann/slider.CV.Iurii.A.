@@ -5,6 +5,7 @@ $(function() {
         centerPadding: '10px',
         slidesToShow: 4,
         slidesToScroll: 1,
+        swipe: false,
         infinite: true,
         responsive: [{
                 breakpoint: 768,
